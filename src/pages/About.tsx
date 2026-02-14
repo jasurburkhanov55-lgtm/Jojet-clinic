@@ -50,25 +50,25 @@ const About = () => {
     {
       name: 'Dr. Jasurjon Burkhanov',
       role: 'Lead Surgeon',
-      image: '/images/dr-jasurjon.jpg',
+      image: 'images/dr-jasurjon.jpg',
       description: 'Board-certified plastic surgeon with 20+ years of experience in aesthetic and reconstructive surgery.',
     },
     {
       name: 'Dr. Sarah Chen',
       role: 'Anesthesiologist',
-      image: '/images/testimonial-1.jpg',
+      image: 'images/testimonial-1.jpg',
       description: 'Board-certified anesthesiologist specializing in outpatient surgical anesthesia and pain management.',
     },
     {
       name: 'Nina Patel, RN',
       role: 'Head Nurse',
-      image: '/images/testimonial-4.jpg',
+      image: 'images/testimonial-4.jpg',
       description: 'Registered nurse with 15 years of experience in plastic surgery patient care and recovery.',
     },
     {
       name: 'Maria Santos',
       role: 'Patient Coordinator',
-      image: '/images/testimonial-5.jpg',
+      image: 'images/testimonial-5.jpg',
       description: 'Dedicated to ensuring every patient has a seamless and comfortable experience from consultation to recovery.',
     },
   ];
@@ -79,7 +79,7 @@ const About = () => {
       <section className="relative py-20 bg-dark">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="/images/surgery-room.jpg"
+            src="images/surgery-room.jpg"
             alt="Surgery room"
             className="w-full h-full object-cover"
           />
@@ -104,7 +104,7 @@ const About = () => {
             <ScrollAnimation animation="slideLeft">
               <div className="relative">
                 <img
-                  src="/images/dr-jasurjon.jpg"
+                  src="images/dr-jasurjon.jpg"
                   alt="Dr. Jasurjon Burkhanov"
                   className="w-full max-w-lg mx-auto shadow-2xl"
                 />
@@ -289,22 +289,22 @@ const About = () => {
             <ScrollAnimation animation="slideRight">
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="/images/clinic-interior.jpg"
+                  src="images/clinic-interior.jpg"
                   alt="Clinic interior"
                   className="w-full h-64 object-cover"
                 />
                 <img
-                  src="/images/consultation-room.jpg"
+                  src="images/consultation-room.jpg"
                   alt="Consultation room"
                   className="w-full h-64 object-cover mt-8"
                 />
                 <img
-                  src="/images/surgery-room.jpg"
+                  src="images/surgery-room.jpg"
                   alt="Surgery room"
                   className="w-full h-64 object-cover -mt-8"
                 />
                 <img
-                  src="/images/service-medspa.jpg"
+                  src="images/service-medspa.jpg"
                   alt="Medspa area"
                   className="w-full h-64 object-cover"
                 />
